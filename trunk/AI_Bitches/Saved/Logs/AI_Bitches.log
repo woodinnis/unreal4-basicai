@@ -1,0 +1,646 @@
+Log file open, 10/22/14 22:40:00
+LogInit:Display: Running engine for game: AI_Bitches
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.23-05.40.00:612][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.23-05.40.00:645][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.23-05.40.00:660][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.23-05.40.00:671][  0]LogInit: Object subsystem initialized
+[2014.10.23-05.40.00:674][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.23-05.40.00:674][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.23-05.40.00:678][  0]LogInit: Computer: AI911LAB234P16
+[2014.10.23-05.40.00:678][  0]LogInit: User: 318364
+[2014.10.23-05.40.00:678][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.23-05.40.00:678][  0]LogInit: High frequency timer resolution =2.604228 MHz
+[2014.10.23-05.40.00:678][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx) Virtual=8192.0GB
+[2014.10.23-05.40.00:679][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.23-05.40.00:679][  0]LogMemory: Process Physical Memory: 59.80 MB used, 59.80 MB peak
+[2014.10.23-05.40.00:679][  0]LogMemory: Process Virtual Memory: 37.30 MB used, 37.30 MB peak
+[2014.10.23-05.40.00:679][  0]LogMemory: Physical Memory: 4045.78 MB used, 12271.22 MB total
+[2014.10.23-05.40.00:679][  0]LogMemory: Virtual Memory: 259.68 MB used, 8388608.00 MB total
+[2014.10.23-05.40.00:722][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro 2000 (Feature Level 11_0)
+[2014.10.23-05.40.00:722][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 5879MB of shared system memory, 1 output[s]
+[2014.10.23-05.40.00:722][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.23-05.40.00:727][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2014.10.23-05.40.00:734][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.23-05.40.00:849][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.23-05.40.02:755][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.23-05.40.03:170][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.23-05.40.03:215][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.23-05.40.03:273][  0]LogDerivedDataCache: Loaded boot cache 0.06s 39MB C:/Users/318364/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.23-05.40.03:273][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/318364/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.23-05.40.03:273][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.23-05.40.03:273][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.23-05.40.03:293][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.23-05.40.03:305][  0]LogDerivedDataCache: Using Local data cache path C:/Users/318364/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.23-05.40.03:481][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.23-05.40.03:481][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.23-05.40.03:868][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.23-05.40.04:762][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_136c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_166c_0///////STATCAT_Advanced////
+[2014.10.23-05.40.04:762][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.23-05.40.04:881][  0]SourceControl: Info Source control is disabled
+[2014.10.23-05.40.04:881][  0]SourceControl: Info Source control is disabled
+[2014.10.23-05.40.04:887][  0]SourceControl: Info Source control is disabled
+[2014.10.23-05.40.05:060][  0]BlueprintLog: New page: Editor Load
+[2014.10.23-05.40.05:154][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.23-05.40.05:154][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.10.23-05.40.05:336][  0]LogEngine: Initializing Engine...
+[2014.10.23-05.40.05:447][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.23-05.40.05:477][  0]LogInit: FAudioDevice initialized.
+[2014.10.23-05.40.05:495][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.23-05.40.05:522][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/318364/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.23-05.40.05:530][  0]LogInit: Texture streaming: Enabled
+[2014.10.23-05.40.05:558][  0]LogInit: Transaction tracking system initialized
+[2014.10.23-05.40.05:664][  0]LogAssetRegistry: FAssetRegistry took 0.0099 seconds to start up
+[2014.10.23-05.40.06:111][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.23-05.40.06:490][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.23-05.40.06:628][  0]LogConsoleResponse:Display: 
+[2014.10.23-05.40.06:812][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_394_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_166c_0///////STATCAT_Advanced////
+[2014.10.23-05.40.06:812][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_624_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_166c_0///////STATCAT_Advanced////
+[2014.10.23-05.40.06:812][  0]SourceControl: Info Source control is disabled
+[2014.10.23-05.40.06:812][  0]Cmd: MAP LOAD FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.23-05.40.06:812][  0]LightingResults: New page: Lighting Build
+[2014.10.23-05.40.06:821][  0]MapCheck: New page: Map Check
+[2014.10.23-05.40.06:821][  0]LightingResults: New page: Lighting Build
+[2014.10.23-05.40.06:838][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012C61300
+[2014.10.23-05.40.08:128][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.23-05.40.08:128][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-05.40.08:149][  0]Cmd: MAP CHECKDEP
+[2014.10.23-05.40.08:149][  0]MapCheck: New page: Minimal_Default - Oct 22, 2014, 3:40:08 PM
+[2014.10.23-05.40.08:223][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [74.464ms] ==========
+[2014.10.23-05.40.08:223][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.412
+[2014.10.23-05.40.08:988][  0]LogCollectionManager: Loaded 0 collections in 0.001881 seconds
+[2014.10.23-05.40.09:374][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.23-05.40.09:569][  0]LogLoad: Full Startup: 10.91 seconds (BP compile: 0.08 seconds)
+[2014.10.23-05.40.09:899][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x912.
+[2014.10.23-05.40.11:384][  2]LogAssetRegistry: Asset discovery search completed in 5.7304 seconds
+[2014.10.23-05.40.28:530][699]LogRenderer:Warning: Reallocating scene render targets to support 1320x912.
+[2014.10.23-05.40.34:350][ 61]LogRenderer:Warning: Reallocating scene render targets to support 1520x912.
+[2014.10.23-05.44.17:875][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2014.10.23-05.44.24:048][901]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.23-05.47.38:531][141]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.23-05.48.32:335][371]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.10.23-05.48.33:266][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.10.23-05.48.36:318][464]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.23-05.48.36:318][464]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.23-05.49.32:546][  0]LogLinker:Warning: Can't find file '/Game/Blueprints/Character_BoxAI'
+[2014.10.23-05.49.32:546][  0]LogLinker: Can't find file '/Game/Blueprints/Character_BoxAI'
+[2014.10.23-05.49.32:546][  0]LogLinker:Warning: Can't find file '/Game/Blueprints/Character_BoxAI'
+[2014.10.23-05.49.32:547][  0]LogLinker: Can't find file '/Game/Blueprints/Character_BoxAI'
+[2014.10.23-05.49.35:063][280]LogLinker:Warning: Can't find file '/Game/Blueprints/Character_BoxAI'
+[2014.10.23-05.49.35:063][280]LogLinker: Can't find file '/Game/Blueprints/Character_BoxAI'
+[2014.10.23-05.49.39:795][828]LogLinker:Warning: Can't find file '/Game/Blueprints/Character_BoxAI'
+[2014.10.23-05.49.39:795][828]LogLinker: Can't find file '/Game/Blueprints/Character_BoxAI'
+[2014.10.23-05.50.42:893][183]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.10.23-05.50.42:943][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000176176A0
+[2014.10.23-05.50.43:076][183]LogSavePackage: Save=84.371643ms
+[2014.10.23-05.50.43:076][183]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Minimal_Default_Auto10BB873C94D476A13BE6B27863FBE8EFC.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Autosaves/Game/Maps/Minimal_Default_Auto1.umap'
+[2014.10.23-05.50.43:083][183]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.190
+[2014.10.23-05.50.43:083][183]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.190
+[2014.10.23-05.50.43:090][183]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character_BoxAI] ([1] browsable assets)...
+[2014.10.23-05.50.43:143][183]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character_BoxAI.Character_BoxAI]
+[2014.10.23-05.50.43:143][183]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character_BoxAI]
+[2014.10.23-05.50.43:568][183]LogSavePackage: Save=410.602692ms
+[2014.10.23-05.50.43:568][183]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Character_BoxAI_Auto13D94FB524BDF91BAF5164C987069AC98.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Autosaves/Game/Blueprints/Character_BoxAI_Auto1.uasset'
+[2014.10.23-05.50.43:574][183]LogFileHelpers: Auto-saving content packages took 0.491
+[2014.10.23-05.52.15:174][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2014.10.23-05.52.34:138][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.10.23-05.52.53:990][176]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.23-05.53.22:258][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.10.23-05.53.36:222][605]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.10.23-05.53.38:394][642]BlueprintLog: New page: Compile Character_BoxAI
+[2014.10.23-05.53.38:552][642]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.10.23-05.53.38:612][642]BlueprintEditorCompileResults: Info [0819.75] Compile of Character_BoxAI successful! [in 59 ms]
+[2014.10.23-05.53.40:501][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BoxAI" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/Character_BoxAI.uasset" SILENT=true
+[2014.10.23-05.53.40:924][676]LogSavePackage: Save=419.882599ms
+[2014.10.23-05.53.40:924][676]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Character_BoxAI0D8D24CA46EFC558474C7CA70EEC3AD9.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/Character_BoxAI.uasset'
+[2014.10.23-05.55.06:060][  2]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:061][  2]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:104][  3]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:104][  3]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:400][ 10]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:400][ 10]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:401][ 10]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:401][ 10]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:442][ 11]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:442][ 11]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:443][ 11]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:443][ 11]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:444][ 11]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:444][ 11]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:444][ 11]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:484][ 12]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.06:783][ 19]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.10.23-05.55.13:661][259]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.10.23-05.55.16:681][330]BlueprintLog: New page: Compile Character_BoxAI
+[2014.10.23-05.55.16:779][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.10.23-05.55.16:849][330]BlueprintEditorCompileResults: Info [0918.00] Compile of Character_BoxAI successful! [in 36 ms]
+[2014.10.23-05.55.17:929][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BoxAI" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/Character_BoxAI.uasset" SILENT=true
+[2014.10.23-05.55.18:355][358]LogSavePackage: Save=419.265137ms
+[2014.10.23-05.55.18:355][358]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Character_BoxAI42B6D4D4477E17631D27449D8A5CBDBC.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/Character_BoxAI.uasset'
+[2014.10.23-05.55.27:601][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:601][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:677][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:677][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:677][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:677][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:677][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:678][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:678][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:678][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:678][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:678][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:678][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:678][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:678][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:679][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:679][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.27:679][570]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.36:440][100]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.36:440][100]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.36:440][100]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.36:440][100]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-05.55.50:620][783]BlueprintLog: New page: Compile HURRHURR
+[2014.10.23-05.55.50:683][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.10.23-05.55.50:714][783]BlueprintEditorCompileResults: Info [0951.90] Compile of HURRHURR successful! [in 1 ms]
+[2014.10.23-05.55.54:138][860]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-05.55.54:138][860]PIE: New page: SIE session: Minimal_Default (Oct 22, 2014, 3:55:54 PM)
+[2014.10.23-05.55.54:150][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011458s)
+[2014.10.23-05.55.54:167][860]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2014.10.23-05.55.54:167][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.028522s)
+[2014.10.23-05.55.54:228][860]LogWorld: Game class is 'GameMode'
+[2014.10.23-05.55.54:295][860]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-05.55.54:297][860]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-22.55.54
+[2014.10.23-05.55.54:298][860]LogWorld: Bringing up level for play took: 0.002431
+[2014.10.23-05.55.54:323][860]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.496
+[2014.10.23-05.55.59:093][962]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.10.23-05.55.59:093][962]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere"
+[2014.10.23-05.56.05:136][ 98]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C0C7740
+[2014.10.23-05.56.05:137][ 98]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011ECB600
+[2014.10.23-05.56.06:324][129]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-05.56.06:324][129]PIE: New page: SIE session: Minimal_Default (Oct 22, 2014, 3:56:06 PM)
+[2014.10.23-05.56.06:330][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005706s)
+[2014.10.23-05.56.06:331][129]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2014.10.23-05.56.06:331][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006689s)
+[2014.10.23-05.56.06:331][129]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere"
+[2014.10.23-05.56.06:358][129]LogWorld: Game class is 'GameMode'
+[2014.10.23-05.56.06:361][129]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-05.56.06:362][129]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-22.56.06
+[2014.10.23-05.56.06:363][129]LogWorld: Bringing up level for play took: 0.001508
+[2014.10.23-05.56.06:363][129]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.457
+[2014.10.23-05.56.06:372][129]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.BP_Sky_Sphere"
+[2014.10.23-05.56.44:071][ 55]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B61F740
+[2014.10.23-05.56.47:817][143]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.10.23-05.57.10:979][715]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-05.57.10:980][715]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 3:57:10 PM)
+[2014.10.23-05.57.10:985][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004967s)
+[2014.10.23-05.57.10:985][715]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2014.10.23-05.57.10:986][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005890s)
+[2014.10.23-05.57.11:014][715]LogWorld: Game class is 'GameMode'
+[2014.10.23-05.57.11:015][715]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-05.57.11:017][715]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-22.57.11
+[2014.10.23-05.57.11:017][715]LogWorld: Bringing up level for play took: 0.001605
+[2014.10.23-05.57.11:018][715]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.194
+[2014.10.23-05.57.34:245][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002091CFE0
+[2014.10.23-05.58.04:006][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HURRHURR" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/HURRHURR.uasset" SILENT=true
+[2014.10.23-05.58.04:024][ 93]LogSavePackage: Save=14.247216ms
+[2014.10.23-05.58.04:024][ 93]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/HURRHURR0BB0D0F047E3693F2A29C988AE2E42DB.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/HURRHURR.uasset'
+[2014.10.23-05.58.08:468][203]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-05.58.08:468][203]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 3:58:08 PM)
+[2014.10.23-05.58.08:473][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004559s)
+[2014.10.23-05.58.08:474][203]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2014.10.23-05.58.08:474][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005501s)
+[2014.10.23-05.58.08:505][203]LogWorld: Game class is 'GameMode'
+[2014.10.23-05.58.08:507][203]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-05.58.08:509][203]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-22.58.08
+[2014.10.23-05.58.08:509][203]LogWorld: Bringing up level for play took: 0.001602
+[2014.10.23-05.58.08:510][203]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.319
+[2014.10.23-05.58.30:812][847]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B61C400
+[2014.10.23-05.59.02:475][ 28]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.10.23-05.59.05:203][ 94]BlueprintLog: New page: Compile HURRHURR
+[2014.10.23-05.59.05:258][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.10.23-05.59.05:284][ 94]BlueprintEditorCompileResults: Info [1146.47] Compile of HURRHURR successful! [in 1 ms]
+[2014.10.23-05.59.08:096][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HURRHURR" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/HURRHURR.uasset" SILENT=true
+[2014.10.23-05.59.08:121][201]LogSavePackage: Save=15.004447ms
+[2014.10.23-05.59.08:121][201]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/HURRHURR7AA50C8C4A947888A3F4D2A504223B71.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/HURRHURR.uasset'
+[2014.10.23-05.59.35:196][786]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-05.59.35:196][786]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 3:59:35 PM)
+[2014.10.23-05.59.35:201][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005511s)
+[2014.10.23-05.59.35:202][786]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2014.10.23-05.59.35:202][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006447s)
+[2014.10.23-05.59.35:229][786]LogWorld: Game class is 'GameMode'
+[2014.10.23-05.59.35:231][786]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-05.59.35:233][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-22.59.35
+[2014.10.23-05.59.35:233][786]LogWorld: Bringing up level for play took: 0.001554
+[2014.10.23-05.59.35:234][786]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.399
+[2014.10.23-05.59.41:121][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A9DD4E0
+[2014.10.23-05.59.43:792][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2014.10.23-05.59.56:268][243]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.10.23-06.00.57:678][438]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.23-06.01.01:565][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.10.23-06.01.04:721][799]BlueprintLog: New page: Compile Character_BoxAI
+[2014.10.23-06.01.04:810][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.10.23-06.01.04:869][799]BlueprintEditorCompileResults: Info [1266.02] Compile of Character_BoxAI successful! [in 34 ms]
+[2014.10.23-06.01.06:984][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character_BoxAI" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/Character_BoxAI.uasset" SILENT=true
+[2014.10.23-06.01.07:425][850]LogSavePackage: Save=435.999084ms
+[2014.10.23-06.01.07:425][850]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Character_BoxAI849799E140A0BF8D38488993DB2E2E07.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/Character_BoxAI.uasset'
+[2014.10.23-06.01.11:623][956]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.01.11:623][956]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:01:11 PM)
+[2014.10.23-06.01.11:629][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005994s)
+[2014.10.23-06.01.11:630][956]LogPlayLevel: PIE: World Init took: (0.000831s)
+[2014.10.23-06.01.11:630][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007076s)
+[2014.10.23-06.01.11:661][956]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.01.11:663][956]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.01.11:665][956]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.01.11
+[2014.10.23-06.01.11:665][956]LogWorld: Bringing up level for play took: 0.001621
+[2014.10.23-06.01.11:666][956]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.826
+[2014.10.23-06.01.21:899][246]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.10.23-06.01.21:925][246]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020A72E80
+[2014.10.23-06.01.33:899][524]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.10.23-06.01.43:416][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2014.10.23-06.01.47:661][854]Cmd: SELECT NONE
+[2014.10.23-06.01.51:801][956]Cmd: DELETE
+[2014.10.23-06.01.51:801][956]Cmd: ACTOR DELETE
+[2014.10.23-06.01.51:802][956]LogEditorActor: Deleted Actor: Brush
+[2014.10.23-06.01.51:802][956]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.10.23-06.01.51:851][956]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2014.10.23-06.01.58:410][ 98]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.01.58:411][ 98]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:01:58 PM)
+[2014.10.23-06.01.58:416][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005103s)
+[2014.10.23-06.01.58:417][ 98]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2014.10.23-06.01.58:417][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006061s)
+[2014.10.23-06.01.58:446][ 98]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.01.58:448][ 98]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.01.58:450][ 98]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.01.58
+[2014.10.23-06.01.58:468][ 98]LogWorld: Bringing up level for play took: 0.019566
+[2014.10.23-06.01.58:469][ 98]LogBlueprintUserMessages: HURRHURR
+[2014.10.23-06.01.58:469][ 98]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.375
+[2014.10.23-06.02.02:458][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.10.23-06.02.02:500][206]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022749760
+[2014.10.23-06.02.38:325][ 70]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.10.23-06.02.38:472][ 70]LogSavePackage: Save=84.405052ms
+[2014.10.23-06.02.38:472][ 70]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Minimal_Default_Auto2E8B31A7941CCC20EBA826B9DBF578BDE.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Autosaves/Game/Maps/Minimal_Default_Auto2.umap'
+[2014.10.23-06.02.38:480][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.155
+[2014.10.23-06.02.38:480][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.155
+[2014.10.23-06.05.08:438][ 97]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.05.08:439][ 97]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.05.08:439][ 97]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.05.08:439][ 97]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.05.08:439][ 97]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.05.08:439][ 97]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.05.08:439][ 97]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.05.30:219][844]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.07.17:334][126]BlueprintLog: New page: Compile HURRHURR
+[2014.10.23-06.07.17:439][126]BlueprintEditorCompileResults: Info [1638.58] Compile of HURRHURR successful! [in 1 ms]
+[2014.10.23-06.07.18:997][158]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.07.18:997][158]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:07:18 PM)
+[2014.10.23-06.07.19:004][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006593s)
+[2014.10.23-06.07.19:005][158]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2014.10.23-06.07.19:005][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007774s)
+[2014.10.23-06.07.19:037][158]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.07.19:038][158]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.07.19:039][158]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.07.19
+[2014.10.23-06.07.19:040][158]LogWorld: Bringing up level for play took: 0.001888
+[2014.10.23-06.07.19:041][158]LogBlueprintUserMessages: HURRHURR
+[2014.10.23-06.07.19:049][158]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.184
+[2014.10.23-06.07.28:173][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023A14AE0
+[2014.10.23-06.07.34:825][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2014.10.23-06.07.35:497][576]Cmd: SELECT NONE
+[2014.10.23-06.07.58:906][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2014.10.23-06.08.44:067][761]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.08.44:067][761]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:08:44 PM)
+[2014.10.23-06.08.44:074][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007093s)
+[2014.10.23-06.08.44:075][761]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2014.10.23-06.08.44:075][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008100s)
+[2014.10.23-06.08.44:101][761]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.08.44:103][761]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.08.44:104][761]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.08.44:104][761]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.08.44
+[2014.10.23-06.08.44:105][761]LogWorld: Bringing up level for play took: 0.001967
+[2014.10.23-06.08.44:106][761]LogBlueprintUserMessages: HURRHURR
+[2014.10.23-06.08.44:106][761]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.764
+[2014.10.23-06.08.48:976][892]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.10.23-06.08.49:000][892]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030A35580
+[2014.10.23-06.09.04:465][259]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.10.23-06.09.09:998][390]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.23-06.09.12:556][452]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.09.12:557][452]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:09:12 PM)
+[2014.10.23-06.09.12:562][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005629s)
+[2014.10.23-06.09.12:563][452]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2014.10.23-06.09.12:563][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006549s)
+[2014.10.23-06.09.12:592][452]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.09.12:594][452]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.09.12:595][452]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.09.12:595][452]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.09.12
+[2014.10.23-06.09.12:596][452]LogWorld: Bringing up level for play took: 0.001889
+[2014.10.23-06.09.12:597][452]LogBlueprintUserMessages: HURRHURR
+[2014.10.23-06.09.12:611][452]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.262
+[2014.10.23-06.09.18:746][622]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030219760
+[2014.10.23-06.09.29:579][886]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.23-06.09.30:935][921]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.09.30:935][921]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:09:30 PM)
+[2014.10.23-06.09.30:943][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007153s)
+[2014.10.23-06.09.30:944][921]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2014.10.23-06.09.30:944][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008614s)
+[2014.10.23-06.09.30:974][921]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.09.30:976][921]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.09.30:978][921]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.09.30:978][921]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.09.30
+[2014.10.23-06.09.30:978][921]LogWorld: Bringing up level for play took: 0.001925
+[2014.10.23-06.09.30:979][921]LogBlueprintUserMessages: HURRHURR
+[2014.10.23-06.09.30:980][921]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.106
+[2014.10.23-06.09.33:755][  2]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002EAD0680
+[2014.10.23-06.09.35:155][ 42]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.09.35:155][ 42]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:09:35 PM)
+[2014.10.23-06.09.35:164][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008517s)
+[2014.10.23-06.09.35:164][ 42]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2014.10.23-06.09.35:165][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009440s)
+[2014.10.23-06.09.35:192][ 42]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.09.35:194][ 42]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.09.35:196][ 42]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.09.35:196][ 42]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.09.35
+[2014.10.23-06.09.35:196][ 42]LogWorld: Bringing up level for play took: 0.001829
+[2014.10.23-06.09.35:197][ 42]LogBlueprintUserMessages: HURRHURR
+[2014.10.23-06.09.35:197][ 42]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.323
+[2014.10.23-06.09.36:441][ 76]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002F487240
+[2014.10.23-06.09.37:060][ 94]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.09.37:061][ 94]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:09:37 PM)
+[2014.10.23-06.09.37:069][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008101s)
+[2014.10.23-06.09.37:070][ 94]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2014.10.23-06.09.37:070][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009116s)
+[2014.10.23-06.09.37:100][ 94]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.09.37:102][ 94]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.09.37:104][ 94]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.09.37:104][ 94]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.09.37
+[2014.10.23-06.09.37:104][ 94]LogWorld: Bringing up level for play took: 0.001888
+[2014.10.23-06.09.37:105][ 94]LogBlueprintUserMessages: HURRHURR
+[2014.10.23-06.09.37:105][ 94]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.231
+[2014.10.23-06.09.38:222][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E91DD00
+[2014.10.23-06.09.38:741][145]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.09.38:741][145]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:09:38 PM)
+[2014.10.23-06.09.38:747][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005475s)
+[2014.10.23-06.09.38:748][145]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2014.10.23-06.09.38:748][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006491s)
+[2014.10.23-06.09.38:780][145]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.09.38:782][145]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.09.38:783][145]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.09.38:784][145]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.09.38
+[2014.10.23-06.09.38:784][145]LogWorld: Bringing up level for play took: 0.001893
+[2014.10.23-06.09.38:785][145]LogBlueprintUserMessages: HURRHURR
+[2014.10.23-06.09.38:785][145]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.089
+[2014.10.23-06.18.24:879][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002091F6A0
+[2014.10.23-06.18.24:879][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002085F6A0
+[2014.10.23-06.18.24:907][159]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028678CC0
+[2014.10.23-06.18.32:861][338]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.10.23-06.18.56:604][768]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.10.23-06.19.19:820][ 95]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.23-06.19.27:699][608]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.23-06.19.47:720][ 53]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.10.23-06.19.58:118][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BB_StupidAI" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/BB_StupidAI.uasset" SILENT=true
+[2014.10.23-06.19.58:127][412]LogSavePackage: Save=5.342082ms
+[2014.10.23-06.19.58:127][412]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/BB_StupidAI97E948F045DA26C700355189092B1F21.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/BB_StupidAI.uasset'
+[2014.10.23-06.20.28:231][278]LogLinker:Warning: Asset '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/Blueprint_Effect_Sparks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.23-06.20.59:575][ 20]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.23-06.21.24:716][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HURRHURR" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/HURRHURR.uasset" SILENT=true
+[2014.10.23-06.21.24:750][579]LogSavePackage: Save=26.179735ms
+[2014.10.23-06.21.24:750][579]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/HURRHURR8D6F4F6E4A2432329CDC679500BABE37.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/HURRHURR.uasset'
+[2014.10.23-06.22.07:862][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.10.23-06.22.07:992][945]LogSavePackage: Save=74.691620ms
+[2014.10.23-06.22.07:992][945]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Minimal_Default_Auto3E63A00234B6A6D00C0C4CEBC46EACADE.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Autosaves/Game/Maps/Minimal_Default_Auto3.umap'
+[2014.10.23-06.22.07:999][945]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.137
+[2014.10.23-06.22.07:999][945]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.137
+[2014.10.23-06.22.08:006][945]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BH_StupidAI] ([1] browsable assets)...
+[2014.10.23-06.22.08:012][945]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BH_StupidAI]
+[2014.10.23-06.22.08:035][945]LogSavePackage: Save=6.184942ms
+[2014.10.23-06.22.08:035][945]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/BH_StupidAI_Auto35E70DF5A493F9DCB90A0F5A366A364DF.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Autosaves/Game/Blueprints/BH_StupidAI_Auto3.uasset'
+[2014.10.23-06.22.08:039][945]LogFileHelpers: Auto-saving content packages took 0.039
+[2014.10.23-06.23.15:076][927]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.23-06.23.30:302][311]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/Task_FindLocation
+[2014.10.23-06.25.19:275][ 49]BlueprintLog: New page: Compile Task_FindLocation
+[2014.10.23-06.25.19:335][ 49]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.10.23-06.25.19:372][ 49]BlueprintEditorCompileResults: Info [2720.44] Compile of Task_FindLocation successful! [in 1 ms]
+[2014.10.23-06.26.04:381][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BH_StupidAI" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/BH_StupidAI.uasset" SILENT=true
+[2014.10.23-06.26.04:395][ 95]LogSavePackage: Save=10.599687ms
+[2014.10.23-06.26.04:395][ 95]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/BH_StupidAI4B4E3E984DF836D019267EB88BFEF613.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/BH_StupidAI.uasset'
+[2014.10.23-06.26.53:658][771]BlueprintLog: New page: Compile HURRHURR
+[2014.10.23-06.26.53:753][771]BlueprintEditorCompileResults: Info [2814.82] Compile of HURRHURR successful! [in 1 ms]
+[2014.10.23-06.26.58:331][890]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.26.58:332][890]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:26:58 PM)
+[2014.10.23-06.26.58:340][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008735s)
+[2014.10.23-06.26.58:341][890]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2014.10.23-06.26.58:341][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009808s)
+[2014.10.23-06.26.58:372][890]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.26.58:375][890]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.26.58:376][890]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.26.58:376][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.26.58
+[2014.10.23-06.26.58:377][890]LogWorld: Bringing up level for play took: 0.001911
+[2014.10.23-06.26.58:384][890]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.56
+[2014.10.23-06.26.58:457][891]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.27.03:551][ 58]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.27.05:164][116]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000035D35940
+[2014.10.23-06.27.22:917][550]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.27.22:918][550]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:27:22 PM)
+[2014.10.23-06.27.22:924][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005951s)
+[2014.10.23-06.27.22:925][550]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2014.10.23-06.27.22:925][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006991s)
+[2014.10.23-06.27.22:954][550]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.27.22:956][550]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.27.22:958][550]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.27.22:958][550]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.27.22
+[2014.10.23-06.27.22:958][550]LogWorld: Bringing up level for play took: 0.001866
+[2014.10.23-06.27.22:959][550]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.015
+[2014.10.23-06.27.23:032][551]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.27.28:239][711]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.27.33:345][864]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.27.38:450][ 17]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.27.43:562][170]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.27.48:700][324]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.27.53:802][477]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.27.58:906][630]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.28.04:013][783]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.28.09:118][936]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.28.14:226][ 89]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.28.19:331][242]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.28.23:034][353]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.10.23-06.28.24:435][395]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.28.32:280][640]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003FB5A80
+[2014.10.23-06.33.27:328][789]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.028
+[2014.10.23-06.33.27:337][789]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HURRHURR] ([1] browsable assets)...
+[2014.10.23-06.33.27:347][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HURRHURR]
+[2014.10.23-06.33.27:376][789]LogSavePackage: Save=15.172635ms
+[2014.10.23-06.33.27:376][789]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/HURRHURR_Auto4AB8ECCD841651B358D6411AA7BA2557E.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Autosaves/Game/Blueprints/HURRHURR_Auto4.uasset'
+[2014.10.23-06.33.27:388][789]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Task_FindLocation] ([1] browsable assets)...
+[2014.10.23-06.33.27:394][789]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Task_FindLocation]
+[2014.10.23-06.33.27:419][789]LogSavePackage: Save=9.256486ms
+[2014.10.23-06.33.27:419][789]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Task_FindLocation_Auto48054538B4E048A093C3D31B8EF98A918.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Autosaves/Game/Blueprints/Task_FindLocation_Auto4.uasset'
+[2014.10.23-06.33.27:423][789]LogFileHelpers: Auto-saving content packages took 0.095
+[2014.10.23-06.33.28:985][841]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.33.28:986][841]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.10.23-06.35.24:580][206]BlueprintLog: New page: Compile Task_FindLocation
+[2014.10.23-06.35.24:677][206]BlueprintEditorCompileResults: Info [3325.71] Compile of Task_FindLocation successful! [in 1 ms]
+[2014.10.23-06.35.26:513][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Task_FindLocation" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/Task_FindLocation.uasset" SILENT=true
+[2014.10.23-06.35.26:532][250]LogSavePackage: Save=15.736334ms
+[2014.10.23-06.35.26:532][250]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/Task_FindLocationD972C8554226513A6311D792B6197C09.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/Task_FindLocation.uasset'
+[2014.10.23-06.35.26:649][254]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/Task_FindLocation
+[2014.10.23-06.35.53:228][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HURRHURR" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/HURRHURR.uasset" SILENT=true
+[2014.10.23-06.35.53:259][958]LogSavePackage: Save=25.199022ms
+[2014.10.23-06.35.53:259][958]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/HURRHURR4020C6794A748A419D6421A418193962.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/HURRHURR.uasset'
+[2014.10.23-06.36.25:714][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BH_StupidAI" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/BH_StupidAI.uasset" SILENT=true
+[2014.10.23-06.36.25:729][216]LogSavePackage: Save=9.699996ms
+[2014.10.23-06.36.25:729][216]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/BH_StupidAI3B13C5334FDABF450F9131A2BE2CB73F.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/BH_StupidAI.uasset'
+[2014.10.23-06.36.31:989][380]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.36.31:989][380]PIE: New page: PIE session: Minimal_Default (Oct 22, 2014, 4:36:31 PM)
+[2014.10.23-06.36.31:998][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008552s)
+[2014.10.23-06.36.31:999][380]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2014.10.23-06.36.31:999][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.009602s)
+[2014.10.23-06.36.32:027][380]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.36.32:029][380]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.36.32:031][380]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.36.32:031][380]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.36.32
+[2014.10.23-06.36.32:031][380]LogWorld: Bringing up level for play took: 0.001974
+[2014.10.23-06.36.32:033][380]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 1.052
+[2014.10.23-06.36.32:100][381]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.36.37:939][570]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.36.43:360][733]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.36.48:525][888]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.36.53:688][ 46]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.36.59:027][214]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.04:174][381]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.09:673][560]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.14:973][731]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.20:469][898]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.25:922][ 69]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.31:540][242]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.36:974][412]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.42:123][573]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.47:612][746]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.53:077][918]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.37.58:513][ 89]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.38.04:001][261]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.38.09:412][431]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.38.10:045][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CE63740
+[2014.10.23-06.38.12:633][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2014.10.23-06.39.20:042][333]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.39.20:042][333]PIE: New page: SIE session: Minimal_Default (Oct 22, 2014, 4:39:20 PM)
+[2014.10.23-06.39.20:050][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007856s)
+[2014.10.23-06.39.20:051][333]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2014.10.23-06.39.20:051][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008861s)
+[2014.10.23-06.39.20:051][333]LogSelection:Warning: PIE object was selected: "NavMeshBoundsVolume /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.NavMeshBoundsVolume_1"
+[2014.10.23-06.39.20:078][333]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.39.20:080][333]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.39.20:082][333]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.39.20:082][333]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.39.20
+[2014.10.23-06.39.20:083][333]LogWorld: Bringing up level for play took: 0.002712
+[2014.10.23-06.39.20:084][333]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0.908
+[2014.10.23-06.39.20:111][333]LogSelection:Warning: PIE object was selected: "NavMeshBoundsVolume /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.NavMeshBoundsVolume_1"
+[2014.10.23-06.39.20:169][334]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.24:249][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.10.23-06.39.24:296][440]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AF24FE0
+[2014.10.23-06.39.38:079][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BH_StupidAI" FILE="../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/BH_StupidAI.uasset" SILENT=true
+[2014.10.23-06.39.38:095][781]LogSavePackage: Save=10.534792ms
+[2014.10.23-06.39.38:095][781]LogSavePackage: Moving '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Saved/BH_StupidAI43F09DC749511478B4F6798609F2C63E.tmp' to '../../../../../../Users/318364/Documents/Unreal Projects/AI_Bitches/Content/Blueprints/BH_StupidAI.uasset'
+[2014.10.23-06.39.41:628][874]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.23-06.39.41:628][874]PIE: New page: SIE session: Minimal_Default (Oct 22, 2014, 4:39:41 PM)
+[2014.10.23-06.39.41:634][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006597s)
+[2014.10.23-06.39.41:635][874]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2014.10.23-06.39.41:635][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007538s)
+[2014.10.23-06.39.41:636][874]LogSelection:Warning: PIE object was selected: "NavMeshBoundsVolume /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.NavMeshBoundsVolume_1"
+[2014.10.23-06.39.41:661][874]LogWorld: Game class is 'GameMode'
+[2014.10.23-06.39.41:663][874]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.10.23-06.39.41:665][874]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.10.23-06.39.41:665][874]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.10.22-23.39.41
+[2014.10.23-06.39.41:666][874]LogWorld: Bringing up level for play took: 0.001981
+[2014.10.23-06.39.41:667][874]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0.673
+[2014.10.23-06.39.41:682][874]LogSelection:Warning: PIE object was selected: "NavMeshBoundsVolume /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.NavMeshBoundsVolume_1"
+[2014.10.23-06.39.41:740][875]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.43:363][917]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.44:548][948]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.45:993][986]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.47:598][ 28]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.48:770][ 59]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.49:941][ 90]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.51:265][125]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.52:669][162]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.54:277][204]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.55:836][245]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.57:214][281]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.58:397][312]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.39.59:874][351]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.01:427][392]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.02:604][423]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.04:133][463]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.05:691][504]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.06:867][535]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.08:207][570]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.09:833][613]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.11:199][649]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.12:838][692]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.14:443][734]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.15:770][769]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.16:947][800]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.18:634][844]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.20:109][883]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.21:891][930]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.23:143][963]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.24:784][  6]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.26:266][ 45]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.27:910][ 88]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.29:538][131]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.30:896][167]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.32:486][209]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.34:273][256]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.35:839][297]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.37:204][333]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.38:734][373]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.40:211][412]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.41:614][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.10.23-06.40.41:841][455]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.43:201][491]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.44:762][532]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.46:368][574]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.48:187][622]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.49:597][659]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.50:923][694]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.52:595][738]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.54:233][781]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.55:684][819]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.57:090][856]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.58:428][891]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.40.59:683][924]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.01:085][961]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.02:648][  2]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.03:942][ 36]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.05:502][ 77]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.07:145][120]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.08:321][151]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.09:962][194]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.11:475][234]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.12:878][271]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.14:055][302]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.15:234][333]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.16:805][374]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.18:631][422]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.20:196][463]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.21:370][494]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.22:545][525]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.23:950][562]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.25:475][602]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.26:854][638]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.28:215][674]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.29:598][710]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.31:267][754]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.32:741][793]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.34:107][829]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.35:288][860]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.36:776][899]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.38:259][938]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.39:715][976]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.41:044][ 11]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.42:220][ 42]LogBlueprintUserMessages: Found New Target
+[2014.10.23-06.41.43:399][ 73]LogBlueprin
